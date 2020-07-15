@@ -1,0 +1,23 @@
+### How to use
+
+## Create a `.vimrc` file in your home folder and add this content.
+
+```
+source $HOME/.vim/vim-plug/plugins.vim
+
+source $HOME/.vim/general/settings.vim
+
+source $HOME/.vim/keys/mappings.vim
+
+source $HOME/.vim/plug-config/coc.vim
+source $HOME/.vim/plug-config/fugitive.vim
+source $HOME/.vim/plug-config/fzf.vim
+source $HOME/.vim/plug-config/gv.vim
+source $HOME/.vim/plug-config/nerdtree.vim
+source $HOME/.vim/plug-config/rhubarb.vim
+source $HOME/.vim/plug-config/rnvimr.vim
+source $HOME/.vim/plug-config/signify.vim
+
+source $HOME/.vim/themes/airline.vim
+source $HOME/.vim/themes/onedark.vim
+```
